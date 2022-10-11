@@ -1,78 +1,46 @@
-@import url(//fonts.googleapis.com/css?family=Oswald:700);
 
-/* general */
 
-body {
-  color: black;
-  background: white;
-  text-align: left;
-  margin: auto;
-  font-size: 14px;
-  max-width: 900px;
+#container > li:nth-child(2){
+    color: red;
+    
 }
 
-/* part 1 - meet the pseudo classes */
-
-.blue-link:hover {
-  color: #4a90e2;
-  font-weight: bold;
+body a:hover{
+    color:lightblue;
+    font-weight: bold;
 }
 
-.red-link:active {
-  color: red;
-  font-style: italic;
+.red-link:active{
+    color:red;
+    font-weight: italic;
 }
 
-.yellow-link:visited {
-  color: yellow;
+.yellow-link:visited{
+    color: yellow;
+    
 }
 
-.input-focus-green:focus {
-  font-size: 20px;
-  color: green;
+.contact-form-textarea:focus{
+    color: green
+    font-size: 20px;
 }
 
-/* part 2 - navigation menu */
+nav:{
+    background: darkblue;
+    
 
-nav {
-  background: darkblue;
-  color: white;
-  display: flex;
 }
 
-nav ul {
-  background: #555;
-  display: flex;
-  margin: auto;
-  padding: 0;
-  list-style-type: none;
+.currentpage{
+    background-color: #ddf;
+    color:black;
 }
 
-nav li:first-child {
-  margin-left: 0;
+nav ul li:hover{
+    color: lightblue;
 }
 
-nav li {
-  margin: 0 30px;
-  background: #55f;
-  padding: 5px;
-}
+nav input:focus{
+    border: aqua;
 
-nav li:hover {
-  background: lightblue;
-  color: black;
-}
-
-nav li:last-child {
-  margin-right: 0;
-}
-
-.current-page {
-  background: #ddf;
-  color: black;
-}
-
-nav input:focus {
-    outline: none;
-    border: 1px solid aqua;
 }
